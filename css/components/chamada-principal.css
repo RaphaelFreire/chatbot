@@ -1,0 +1,30 @@
+.chamada-principal{
+          display: inline-block;
+          width: 320px;
+          margin: auto;
+          color: #fff;
+          text-transform: uppercase;
+}
+
+.chamada-principal > h1{
+          font-size: 1.6rem;
+          line-height: 2.5rem;
+}
+
+.chamada-principal > p{
+          margin-top: 25px;
+          margin-bottom: 25px;
+          font-size: 0.9rem;
+          line-height: 1.5rem;
+}
+
+.chamada-principal > button {
+          width: 160px;
+          line-height: 2.5rem;
+          font-size: 1rem;
+          text-transform: inherit;
+          background-color: transparent;
+          color: inherit;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          border-radius: 10px;
+}

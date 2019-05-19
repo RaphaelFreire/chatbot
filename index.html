@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>Chatbot Result</title>
+          <link rel="stylesheet" href="css/generic/reset.min.css">
+          <link rel="stylesheet" href="css/generic/base.css">
+          <link href="https://fonts.googleapis.com/css?family=Lato:300,400i,700&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="css/components/wrapper.css">
+          <link rel="stylesheet" href="css/components/logo-chatbot.css">
+          <link rel="stylesheet" href="css/components/menu-chatbot.css">
+          <link rel="stylesheet" href="css/components/chamada-principal.css">
+          <link rel="stylesheet" href="css/components/img-chatbot.css">
+          <link rel="stylesheet" href="css/components/info-chatbot.css">
+          <link rel="stylesheet" href="css/components/logo-chatbot-vertical.css">
+          <link rel="stylesheet" href="css/components/credito-rodape.css">
+          <link rel="stylesheet" href="css/components/icone.css">
+          <link rel="stylesheet" href="css/components/watson-chat.css">
+          <link rel="stylesheet" href="css/watson/watson-base.css">
+          <link rel="stylesheet" href="css/watson/watson-default.css">
+          <link rel="stylesheet" href="css/watson/watson-chat.css">
+</head>
+<body>
+          <div class="bg-head"></div>
+          <div class="wrapper">
+                    <header class="auto-grid header">
+                              <img class="logo-chatbot" src="/img/logo-chatbot.svg" alt="logo chatbot">
+                              <a class="menu-chatbot" href="#">Blog</a>
+                              <div class="chamada-principal">
+                                        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, fugiat.</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <button>Chatbot</button>
+                              </div>
+                              <div class="img-chatbot">
+                                        <img src="img/chatbot.png" alt="Imagem chatbot e pessoas">
+                              </div>
+                    </header>
+                    <main class="auto-grid main">
+                              <div class="info-chatbot">
+                                        <div class="-box">
+                                                  <img src="img/icone-dados.svg" alt="imagem qualquer">
+                                                  <h1>SEO</h1>
+                                                  <p>
+                                                            ReportGarden is an easy way to group PPC, SEO & Social accounts
+                                                            into one client report.      
+                                                  </p>
+                                        </div>
+                                        <div class="-box">
+                                                   <img src="img/icone-dinheiro-color.svg" alt="icone de dinheiro">
+                                                  <h1>SEO</h1>
+                                                  <p>
+                                                            ReportGarden is an easy way to group PPC, SEO & Social accounts
+                                                            into one client report.      
+                                                  </p>
+                                        </div>
+                              </div>
+
+                              <div>  
+                                        <div class='Chat__holder'>
+                                        <div class='Chat__body'></div>
+                                        </div> 
+                                        <script src="https://assistant-chat-us-south.watsonplatform.net/web/chat/ibm.chat.0.0.4.js"></script>
+                                        <script>
+                                        const config = {
+                                        bot_image: null, // 'http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-11/256/smiling-face-with-open-mouth.png'
+                                        bot_name: '',
+                                        debug: true,
+                                        element: document.querySelector('.Chat__body'),
+                                        integration_id: 'be49a1f8-c2b5-4d3a-a1b2-3abe274245da',
+                                        post_url: 'https://assistant-chat-us-south.watsonplatform.net/public/message/'
+                                        };
+                                        const chat = new WatsonChat(config);
+                                        </script>
+                              </div>
+
+                              <div class="info-chatbot">
+                                        <div class="-box">
+                                                   <img src="img/icone-dinheiro-color.svg" alt="icone de dinheiro">
+                                                  <h1>SEO</h1>
+                                                  <p>
+                                                            ReportGarden is an easy way to group PPC, SEO & Social accounts
+                                                            into one client report.      
+                                                  </p>
+                                        </div>
+                                        <div class="-box">
+                                                   <img src="img/icone-dinheiro-color.svg" alt="icone de dinheiro">
+                                                  <h1>SEO</h1>
+                                                  <p>
+                                                            ReportGarden is an easy way to group PPC, SEO & Social accounts
+                                                            into one client report.      
+                                                  </p>
+                                        </div>
+                              </div>
+                    </main>
+          </div>
+           <footer class="auto-grid footer">
+                              <div>
+                                        <img class="logo-chatbot-vertical" src="img/logo-chatbot-vertical.svg" alt="logo chatbot">
+                                        <p class="credito-rodape">Todos os direitos reservados. 2019</p>
+                              </div>
+                              <div class="icones-footer">
+                                        <img class="icone" src="img/logo-facebook.svg" alt="icone facebook">
+                                        <img class="icone" src="img/logo-instagram.svg" alt="icone instagram">
+                                        <img class="icone" src="img/logo-github.svg" alt="icone logo-github">
+                              </div>
+          </footer>  
+</body>
+</html>

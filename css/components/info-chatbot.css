@@ -1,0 +1,33 @@
+.info-chatbot{
+          display: block;
+          width: 250px;
+          margin: auto;
+          text-align: center;
+          color: #fff;
+}
+
+.info-chatbot img{
+          width: 75px;
+}
+
+.info-chatbot h1{
+          font-size: 1.3rem;
+          line-height: 2.5rem;
+}
+
+.info-chatbot p {
+          font-size: 1rem;
+          line-height: 1.4rem;      
+}
+
+.info-chatbot .-box{
+          border: 1px solid rgb(255, 255, 255, 0.1);
+          padding: 20px;
+          margin-bottom: 50px;
+}
+
+@media (max-width: 768px){
+          .info-chatbot .-box{
+                    margin-top: 50px;
+          }
+}
