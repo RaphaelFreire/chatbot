@@ -28,7 +28,7 @@
 }
 
 .footer{
-	--auto-grid-min-size: 32rem;
+	--auto-grid-min-size: 40rem;
 	background-color: #348AED;
 	grid-auto-rows: 200px;	
 }

@@ -66,7 +66,7 @@ Built: May 17 2019 6:11 pm +00:00
 	margin: 0;
 	min-height: 360px;
 	text-align: left;
-	width: 360px;
+	width: 320px;
 }
 .WatsonChat__header {
 	position: relative;
@@ -98,12 +98,13 @@ Built: May 17 2019 6:11 pm +00:00
 	position: absolute;
 	left: 20%;
 	z-index: 3;
-}
-.WatsonChat__header-svg {
-	height: 144px;
-	overflow: hidden;
-	width: 140px;
 } */
+.WatsonChat__header-svg {
+	/* height: 144px;
+	overflow: hidden;
+	width: 140px; */
+	display: none;
+}
 .WatsonChat * {
 	box-sizing: border-box;
 }
@@ -115,7 +116,7 @@ Built: May 17 2019 6:11 pm +00:00
 	border-radius: 0 1.5em 1.5em 0;
 	box-shadow: 0 0 15px #c0bfc0;
 	position: relative;
-	width: 100%;
+	width: 90%;
 }
 #WatsonChat__inputLabel {
 	display: none;
@@ -135,6 +136,7 @@ Built: May 17 2019 6:11 pm +00:00
 	border: none;
 	height: 100%;
 	resize: none;
+	overflow-y: hidden;
 }
 .WatsonChat__input::-webkit-input-placeholder {
 	font-style: italic;
