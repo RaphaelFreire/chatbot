@@ -8,34 +8,45 @@
 	--auto-grid-min-size: 24rem;
 	display: grid;
 	grid-template-columns: repeat(
-		auto-fill, minmax(var(--auto-grid-min-size), 1fr)
+		auto-fill,
+		minmax(var(--auto-grid-min-size), 1fr)
 	);
 	grid-column-gap: 0.8rem;
 }
 
-/* .auto-grid {
-} */
-
-/* .auto-grid div{border: 1px solid black;} */
-
-.header{
+.header {
 	position: relative;
-	grid-auto-rows: 100vh;
+	grid-auto-rows: 90vh;
 }
 
-.main{
+.main {
 	--auto-grid-min-size: 20rem;
 }
 
-.footer{
-	--auto-grid-min-size: 40rem;
-	background-color: #348AED;
-	grid-auto-rows: 200px;	
+.footer {
+	--auto-grid-min-size: 20rem;
+	background-color: #348aed;
 }
 
-@media (max-width: 768px){
-	.auto-grid{
+@media (max-width: 1024px) {
+	.footer {
+		--auto-grid-min-size: 22rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.auto-grid {
 		--auto-grid-min-size: 16rem;
 	}
 }
 
+@media (max-width: 425px) {
+
+	.header{
+		grid-auto-rows: 60vh;
+	}
+
+	.footer {
+		--auto-grid-min-size: 16rem;
+	}
+}

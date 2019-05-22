@@ -1,6 +1,18 @@
 .img-chatbot {
-	display: block;
-	width: 302px;
-	height: 336.2px;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.img-chatbot img{
+	width: 400px;
+}
+
+@media (max-width: 425px) {
+	.img-chatbot{
+		margin: auto;
+	}
+
+	.img-chatbot  img{
+		width: 300px;
+	}
 }

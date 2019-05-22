@@ -1,11 +1,18 @@
-.menu-chatbot{
-          position: absolute;
-          top: 50px;
-          right: 0;
-          color: #fff;
-          text-transform: uppercase;
-          text-decoration: none;
-          padding: 10px;
-          border: 1px solid rgba(255,255,255,0.5);
-          border-radius: 10px;
+.menu-chatbot {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+@media (max-width: 425px) {
+	.menu-chatbot {
+		top: 20px;
+		right: 20px;
+	}
 }

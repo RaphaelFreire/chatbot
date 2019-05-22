@@ -69,7 +69,8 @@ Built: May 17 2019 6:09 pm +00:00
 	flex-direction: column;
 	height: 90%;
 	margin: auto;
-	width: 320px;
+	width: 300px;
+	align-content: center;
 }
 /* .Chat__title {
 	align-items: center;
